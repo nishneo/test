@@ -12,10 +12,6 @@ Provide a clear and concise summary of the changes made. Include:
 
 ## 🧪 Testing
 
-### Test Coverage
-- [ ] Unit tests added/updated for new functionality
-- [ ] JUnit coverage meets project standards (>80%)
-
 ### Quality Gates
 - [ ] SonarQube quality gates passed
 - [ ] No new code smells or security vulnerabilities
