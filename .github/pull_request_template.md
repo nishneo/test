@@ -1,40 +1,51 @@
-# Description
+# Pull Request Description
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
+## 📋 Summary
+Provide a clear and concise summary of the changes made. Include:
+- What was changed and why
+- Which issue(s) this PR addresses
+- Any breaking changes or migration steps required
 
-Fixes # (issue)
+**Fixes:** #(issue-number)  
+**Type:** [Feature/Bugfix/Hotfix/Refactor/Documentation]
 
 
-## How Has This Been Tested?
+## 🧪 Testing
 
-Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
+### Test Coverage
+- [ ] Unit tests added/updated for new functionality
+- [ ] JUnit coverage meets project standards (>80%)
 
-- [ ] Sonar quality gates passed
-- [ ] Mobile responsiveness testing (if frontend changes)
+### Quality Gates
+- [ ] SonarQube quality gates passed
+- [ ] No new code smells or security vulnerabilities
+- [ ] Mobile responsiveness tested (if frontend changes)
+- [ ] Accessibility guidelines followed (WCAG 2.1 AA)
 
-## AEM Component Development (if applicable)
+## 🏗️ AEM Component Development
 
-- [ ] Component policy for the component is committed
-- [ ] Have consistent names (Don't use phx, use phoenix)
-- [ ] Have data-component attribute on component
-- [ ] Component class is added via via htmlTag file
-- [ ] Component refresh after edit, add, delete via editConfig file
-- [ ] Validated Sonar issues in local
-- [ ] If extending OOTB, integrate OOTB htl/html with storybook
-- [ ] If extending OOTB, make sure dialogs, design dialogs, authoring capabilities are working
-- [ ] Validated Junit coverage in IDE
-- [ ] Accessibility guidelines are followed
+### Component Structure
+- [ ] Component follows naming conventions (use `phoenix`, not `phx`)
+- [ ] Component policy configuration committed
+- [ ] `data-component` attribute added to component markup
+- [ ] Component class added via `htmlTag` file
+- [ ] Edit configuration supports refresh after edit/add/delete operations
 
-## Security and Performance
+### OOTB Integration (if applicable)
+- [ ] OOTB HTL/HTML integrated with Storybook
+- [ ] Dialog, design dialog and Authoring functionality verified
 
-- [ ] No sensitive data is exposed in logs or responses
-- [ ] No Secrets and passwords are commited in the code
+### Content & Configuration
+- [ ] All OSGi configurations included in codebase
+- [ ] No hardcoded values or environment-specific settings
 
-## Checklist:
+## 🔒 Security & Performance
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] All OSGi configurations are included in the codebase
+### Security
+- [ ] No sensitive data exposed in logs or responses
+- [ ] No secrets, passwords, or API keys committed
 
+## 📚 Documentation
+
+- [ ] Code comments added for complex logic
+- [ ] Component documentation updated in TDS
